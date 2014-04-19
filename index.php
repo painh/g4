@@ -1,0 +1,14 @@
+<?php
+
+echo <<< EOF
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	hello world!
+</body>
+</html>
+EOF;
