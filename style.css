@@ -1,0 +1,54 @@
+#divTop{
+	width : 100%;
+	min-height : 310px;
+	margin:0px;
+}
+#divExits {
+	float:left;
+	min-width : 200px;
+	min-height : 300px;
+	text-align:center;
+	border: 1px solid #aaa;
+}
+#divExits ui li {
+	display : block;
+	cursor:pointer;
+	border-bottom:1px solid #000;
+	padding:5px 10px 5px 10px;
+}
+
+#divExits ui li:hover {
+	background-color:#aaa;
+}
+
+#divLog { 
+	margin:0px;
+	float:left;
+	min-width : 500px;
+	min-height : 300px;
+	border: 1px solid #aaa;
+	overflow:auto;
+}
+#divLog p {
+	margin:5px 1px 5px 1px;
+}
+
+#divObjects { 
+	margin:0px;
+	float:left;
+	min-width : 300px;
+	min-height : 300px;
+	text-align:center;
+	border: 1px solid #aaa;
+}
+
+#divInven ui li {
+	display : inline-block;
+	cursor:pointer;
+	border:1px solid #000;
+	padding:5px 10px 5px 10px;
+}
+
+#divInven ui li:hover {
+	background-color:#aaa;
+}
